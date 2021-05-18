@@ -1,12 +1,12 @@
 .flex-container{
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content:flex-end;
 }
 .inline-flex-container{
     display: inline-flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 .bg-red{
     background-color: red;
@@ -30,10 +30,13 @@
 }
 .d1{
     order: 1;
+    flex-basis: 200;
 }
 .d2{
     order: 3;
+    flex-basis: 100;
 }
 .d3{
     order: 2;
+    flex-basis: 100;
 }
