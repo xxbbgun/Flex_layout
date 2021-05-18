@@ -1,12 +1,12 @@
 .flex-container{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap-reverse;
+    flex-flow: row wrap;
+    justify-content: space-between;
 }
 .inline-flex-container{
     display: inline-flex;
-    flex-direction: row;
-    flex-wrap: wrap-reverse;
+    flex-flow: row wrap;
+    justify-content: space-between;
 }
 .bg-red{
     background-color: red;
@@ -27,4 +27,13 @@
     padding: 10px;
     font-size: 25px;
     width: 70px;
+}
+.d1{
+    order: 1;
+}
+.d2{
+    order: 3;
+}
+.d3{
+    order: 2;
 }
