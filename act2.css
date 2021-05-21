@@ -1,0 +1,52 @@
+
+.mainPanel{
+    display: flex;
+flex-flow: column nowrap;
+}
+.mainMenu{
+    display: flex;
+    flex-flow: row nowrap;
+}
+.mainMenu>div{
+    padding: 10px;
+    margin: 20px;
+    background-color: gray;
+    height: 20px;
+}
+.contentPanel{
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+.leftMenu{
+    display: block;
+    flex-flow: column;
+    justify-content: center;
+    width: 15%;
+}
+.leftMenu>div{
+    padding: 5px;
+    margin: 10px;
+    background-color: gray;
+    text-align: center;
+ 
+}
+.content{
+    flex-grow: 1;
+}
+div{
+    border: 1px solid black;
+}
+h3{
+    padding-left: 30px;
+}
+.image{
+    display: flex;
+    flex-flow: row wrap;
+    border: none; 
+}
+.image>div{ 
+    padding-left: 100px;
+    margin: 35px;
+   border: none;
+}
