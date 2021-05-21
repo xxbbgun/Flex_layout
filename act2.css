@@ -44,9 +44,11 @@ h3{
     display: flex;
     flex-flow: row wrap;
     border: none; 
+    
 }
 .image>div{ 
     padding-left: 100px;
     margin: 35px;
    border: none;
+   width: 250px;
 }
